@@ -1,9 +1,10 @@
 {
-  "run": "npm run dev",
+  "run": "npm run start:mightymeld  ",
   "run_prettier": true,
   "include": [
     "src"
   ],
   "web_server_url": "http://localhost:3000",
-  "editor": "url:vscode://file/%FILENAME:%LINE:%COLUMN"
+  "editor": "url:vscode://file/%FILENAME:%LINE:%COLUMN",
+  "prefac_dir": "src/prefabs"
 }

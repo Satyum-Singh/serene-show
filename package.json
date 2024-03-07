@@ -22,6 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:mightymeld": "react-app-rewired start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -45,6 +46,8 @@
     ]
   },
   "devDependencies": {
-    "@mightymeld/runtime": "^0.1.49"
+    "@mightymeld/runtime": "^0.1.49",
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.2.1"
   }
 }
