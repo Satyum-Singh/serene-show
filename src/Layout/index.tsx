@@ -17,7 +17,7 @@ const Layout = ({ children }: LayoutProps) => {
           lg: "row",
         },
         color: "white",
-        padding: 3,
+        padding: 2,
         gap: 3,
         overflowY: "hidden",
         height: "100vh",
@@ -27,7 +27,7 @@ const Layout = ({ children }: LayoutProps) => {
       <Box
         sx={{
           width: "100%",
-          overflowY: "scroll",
+          overflow: "auto",
         }}
       >
         {children}

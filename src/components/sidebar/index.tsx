@@ -9,7 +9,7 @@ const navLinks = [
   {
     name: "Home",
     icon: homeIcon,
-    link: "/home",
+    link: "/",
   },
   {
     name: "Movies",
@@ -25,11 +25,6 @@ const navLinks = [
     name: "Bookmarks",
     icon: bookmarkIcon,
     link: "/bookmarks",
-  },
-  {
-    name: "Login",
-    icon: homeIcon,
-    link: "/",
   },
 ];
 
@@ -52,6 +47,7 @@ function Sidebar() {
           sm: "100%",
           lg: 200,
         },
+        overflow: "hidden",
       }}
     >
       <Box
@@ -93,7 +89,6 @@ function Sidebar() {
               lg: "column",
             },
             gap: 4,
-            alignItems: "center",
           }}
         >
           {navLinks.map((item) => (
@@ -105,15 +100,13 @@ function Sidebar() {
               <Box
                 sx={{
                   display: "flex",
-                  gap: 2,
+                  flexDirection: "row",
                   alignItems: "center",
-                  justifyContent: "center",
+                  gap: 2,
                   padding: 1,
                   borderRadius: 2,
-                  backgroundColor: `${
-                    pathname === item.link ? "#2a3141" : "transparent"
-                  }`,
-                  transition: "0.3s",
+                  color: "white",
+                  textDecoration: "none",
                 }}
               >
                 <img
