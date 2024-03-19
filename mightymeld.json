@@ -4,7 +4,7 @@
   "include": [
     "src"
   ],
-  "web_server_url": "http://localhost:3000",
+  "web_server_url": "http://localhost:5173",
   "editor": "url:vscode://file/%FILENAME:%LINE:%COLUMN",
   "prefab_dir": "src/prefabs"
 }

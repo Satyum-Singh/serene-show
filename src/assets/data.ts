@@ -1,3 +1,5 @@
+
+
 export interface MovieDataType {
   id: string;
   title: string;
