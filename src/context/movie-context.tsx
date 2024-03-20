@@ -22,7 +22,7 @@ const initialMovieState: MovieState = {
 
 const MovieReducer = (state: MovieState, action: MovieAction) => {
   switch (action.type) {
-    case "TOGGLE BookMARK":
+    case "TOGGLE BOOKMARK":
       return {
         ...state,
         movies: state.movies.map((movie) => {

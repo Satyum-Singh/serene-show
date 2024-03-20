@@ -1,12 +1,13 @@
 import { Box, Grid, Paper } from "@mui/material";
 import React from "react";
 import { MovieDataType } from "../../assets/data";
+import MovieTrendCard from "../movie-card/movieTrend";
 
 interface MovieTrendListProps {
   trendingList: MovieDataType[];
 }
 
-function MovieTrendList({ trendingList }: MovieTrendListProps) {
+const MovieTrendList = ({ trendingList }: MovieTrendListProps) => {
   console.log(trendingList);
   return (
     <Box
