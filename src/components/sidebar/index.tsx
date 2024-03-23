@@ -14,7 +14,7 @@ const navLinks = [
   {
     name: "Movies",
     icon: movieIcon,
-    link: "/movies",
+    link: "/movie",
   },
   {
     name: "TV Series",

@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router-dom";
-
 import TvSeries from "./pages/tv-series";
 import Home from "./pages/home";
 import Movie from "./pages/movie";
